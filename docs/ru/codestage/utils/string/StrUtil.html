@@ -1,0 +1,299 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><!-- saved from url=(0014)about:internet --><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="../../../../style.css" type="text/css" media="screen"><link rel="stylesheet" href="../../../../print.css" type="text/css" media="print"><link rel="stylesheet" href="../../../../override.css" type="text/css"><meta name="keywords" content="StrUtil,ru.codestage.utils.string.StrUtil,afterFirst,afterLast,beforeFirst,beforeLast,between,capitalize,countOf,duplicateString,escapeHTML,formatTime,getAntiCache,getFileDir,getFileExtension,getFileName,getLettersFromString,getNumbersFromString,hasInvalidChars,hasValidChars,includeTrailingPathDelimiter,isAlphaNumeric,isDigit,isFileURL,isHttpURL,isHttpsURL,isIP4,isIntegerInRange,isLetter,isLetterOrDigit,isNotEmpty,isNumeric,isValidEmail,isValidPhone,pad,remove,removeExtraWhitespace,reverse,reverseWords,stripTags,trim,trimLeft,trimRight,truncate,unescapeHTML"><title>ru.codestage.utils.string.StrUtil</title></head><body><script language="javascript" type="text/javascript" src="../../../../asdoc.js"></script><script language="javascript" type="text/javascript" src="../../../../help.js"></script><script language="javascript" type="text/javascript" src="../../../../cookies.js"></script><script language="javascript" type="text/javascript"><!--
+				asdocTitle = 'StrUtil - CodeStage AS3 Framework';
+				var baseRef = '../../../../';
+				window.onload = configPage;
+			--></script>
+<script type="text/javascript">
+			scrollToNameAnchor();
+		</script><table class="titleTable" cellpadding="0" cellspacing="0" id="titleTable" style="display:none"><tr><td class="titleTableTitle" align="left">CodeStage ActionScript 3 Framework</td><td class="titleTableTopNav" align="right"><a href="../../../../package-summary.html" onclick="loadClassListFrame('../../../../all-classes.html')">All Packages</a>&nbsp;|&nbsp;<a href="../../../../class-summary.html" onclick="loadClassListFrame('../../../../all-classes.html')">All Classes</a>&nbsp;|&nbsp;<a href="../../../../all-index-A.html" onclick="loadClassListFrame('../../../../index-list.html')">Index</a>&nbsp;|&nbsp;<a id="framesLink1" href="../../../../index.html?ru/codestage/utils/string/StrUtil.html&amp;ru/codestage/utils/string/class-list.html">Frames</a><a id="noFramesLink1" style="display:none" href="" onclick="parent.location=document.location"> No Frames </a></td><td class="titleTableLogo" align="right" rowspan="3"><img src="../../../../images/logo.jpg" class="logoImage" alt=" Adobe Logo " title=" Adobe Logo "></td></tr><tr class="titleTableRow2"><td class="titleTableSubTitle" id="subTitle" align="left">StrUtil</td><td class="titleTableSubNav" id="subNav" align="right"><a href="#methodSummary">Methods</a></td></tr><tr class="titleTableRow3"><td colspan="3">&nbsp;</td></tr></table><script language="javascript" type="text/javascript" xml:space="preserve">
+				<!--
+				
+					if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("StrUtil"); titleBar_setSubNav(false,false,false,false,false,false,false,false,true,false,false	,false,false,false,false,false);}	
+				-->
+			</script><div xmlns:fn="http://www.w3.org/2005/xpath-functions" class="MainContent"><table class="classHeaderTable" cellpadding="0" cellspacing="0"><tr><td class="classHeaderTableLabel">Package</td><td><a href="package-detail.html" onclick="javascript:loadClassListFrame('class-list.html')">ru.codestage.utils.string</a></td></tr><tr><td class="classHeaderTableLabel">Class</td><td class="classSignature">public final   class  StrUtil</td></tr><tr><td class="classHeaderTableLabel">Inheritance</td><td class="inheritanceList">StrUtil  <img src="../../../../images/inherit-arrow.gif" title="Inheritance" alt="Inheritance" class="inheritArrow"> Object</td></tr></table><p></p><p></p><p></p>
+	 Different string-around functions.
+	 <p></p><br/><hr></div><a name="methodSummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Methods </div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableMethod"><tr><th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#afterFirst()" class="signatureLink">afterFirst</a>(targetString:String, char:String):String</div><div class="summaryTableDescription">[static] 
+		 Returns everything after the first occurrence of the provided character in the string
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#afterLast()" class="signatureLink">afterLast</a>(targetString:String, char:String):String</div><div class="summaryTableDescription">[static] 
+		 Returns everything after the last occurence of the provided character in p_string
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#beforeFirst()" class="signatureLink">beforeFirst</a>(targetString:String, char:String):String</div><div class="summaryTableDescription">[static] 
+		 Returns everything before the first occurrence of the provided character in the string
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#beforeLast()" class="signatureLink">beforeLast</a>(targetString:String, char:String):String</div><div class="summaryTableDescription">[static] 
+		 Returns everything before the last occurrence of the provided character in the string
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#between()" class="signatureLink">between</a>(targetString:String, startString:String, endString:String):String</div><div class="summaryTableDescription">[static] 
+		 Returns everything after the first occurance of startString and before
+		 the first occurrence of endString in targetString
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#capitalize()" class="signatureLink">capitalize</a>(targetString:String, allWords:Boolean = false):String</div><div class="summaryTableDescription">[static] 
+		 Capitallizes the first word in a string or all words
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#countOf()" class="signatureLink">countOf</a>(targetString:String, char:String, caseSensitive:Boolean = true):uint</div><div class="summaryTableDescription">[static] 
+		 Determines the number of times a charactor or sub-string appears within the string
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#duplicateString()" class="signatureLink">duplicateString</a>(source:String, count:uint = 1):String</div><div class="summaryTableDescription">[static] 
+		 Duplicates 'source' string 'count' times
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#escapeHTML()" class="signatureLink">escapeHTML</a>(str:String):String</div><div class="summaryTableDescription">[static] 
+		 Encodes characters within a string for use in an HTML Text Field.</div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#formatTime()" class="signatureLink">formatTime</a>(timeInSeconds:Number):String</div><div class="summaryTableDescription">[static] 
+		 Returns time in hh:mm:ss format from seconds
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getAntiCache()" class="signatureLink">getAntiCache</a>(prefix:String = ?ac=):String</div><div class="summaryTableDescription">[static] 
+		 Generates anti-cache string
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getFileDir()" class="signatureLink">getFileDir</a>(filepath:String):String</div><div class="summaryTableDescription">[static] 
+		 Returns given filename's directory path
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getFileExtension()" class="signatureLink">getFileExtension</a>(filename:String):String</div><div class="summaryTableDescription">[static] 
+		 Returns given filename's extension (chars after last period)
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getFileName()" class="signatureLink">getFileName</a>(filename:String):String</div><div class="summaryTableDescription">[static] 
+		 Returns given filename's clean name, without extension (chars before last period)
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getLettersFromString()" class="signatureLink">getLettersFromString</a>(source:String):String</div><div class="summaryTableDescription">[static] 
+		 Returns all the letter characters from a String
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getNumbersFromString()" class="signatureLink">getNumbersFromString</a>(source:String):String</div><div class="summaryTableDescription">[static] 
+		 Returns all the numeric characters from a String
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#includeTrailingPathDelimiter()" class="signatureLink">includeTrailingPathDelimiter</a>(path:String, separator:String = \):String</div><div class="summaryTableDescription">[static] 
+		 Used to include trailing delimiter into the given path
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#pad()" class="signatureLink">pad</a>(elem:String, finalLength:uint = 2, padChar:String = 0, dir:String = l):String</div><div class="summaryTableDescription">[static] 
+		 This function will pad the left or right side of any String passed in elem
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#remove()" class="signatureLink">remove</a>(targetString:String, toRemove:String, caseSensitive:Boolean = true):String</div><div class="summaryTableDescription">[static] 
+		 Removes all instances of the remove string in the input string
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#removeExtraWhitespace()" class="signatureLink">removeExtraWhitespace</a>(source:String):String</div><div class="summaryTableDescription">[static] 
+		 Removes extraneous whitespace (extra spaces, tabs, line breaks, etc) from the specified string
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#reverse()" class="signatureLink">reverse</a>(targetString:String):String</div><div class="summaryTableDescription">[static] 
+		 Returns the specified string in reverse character order
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#reverseWords()" class="signatureLink">reverseWords</a>(targetString:String):String</div><div class="summaryTableDescription">[static] 
+		 Returns the specified string in reverse word order
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#stripTags()" class="signatureLink">stripTags</a>(targetString:String):String</div><div class="summaryTableDescription">[static] 
+		 Removes all &lt; and &gt; based tags from a string
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#trim()" class="signatureLink">trim</a>(source:String, removeChars:String):String</div><div class="summaryTableDescription">[static] 
+		 Strips whitespace (or other characters) from the beginning and end of a given string
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#trimLeft()" class="signatureLink">trimLeft</a>(source:String, removeChars:String):String</div><div class="summaryTableDescription">[static] 
+		 Strips whitespace (or other characters) from the beginning of a String
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#trimRight()" class="signatureLink">trimRight</a>(source:String, removeChars:String):String</div><div class="summaryTableDescription">[static] 
+		 Strips whitespace (or other characters) from the end of a String
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#truncate()" class="signatureLink">truncate</a>(source:String, leading:uint = 10, trailing:uint = 0, separator:String = ...):String</div><div class="summaryTableDescription">[static] 
+		 Returns a shortened String
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#unescapeHTML()" class="signatureLink">unescapeHTML</a>(str:String):String</div><div class="summaryTableDescription">[static] 
+		 Converts HTML &amp;,&quot;,etc into the characters
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrUtil</td></tr></table></div><script language="javascript" type="text/javascript"><!--
+										showHideInherited();
+										--></script><div class="MainContent"><a name="methodDetail"></a><div class="detailSectionHeader">Method Detail</div><a name="afterFirst()"></a><a name="afterFirst(String,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">afterFirst</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td></tr></table><div class="detailBody"><code> public static function afterFirst(targetString:String, char:String):String</code><p></p><p></p><p>
+		 Returns everything after the first occurrence of the provided character in the string
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">targetString</span>:String</code> &mdash; Target string
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">char</span>:String</code> &mdash; Character or sub-string
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; Everything after the first occurrence of <code>char</code>
+		 </td></tr></table></div><a name="afterLast()"></a><a name="afterLast(String,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">afterLast</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function afterLast(targetString:String, char:String):String</code><p></p><p></p><p>
+		 Returns everything after the last occurence of the provided character in p_string
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">targetString</span>:String</code> &mdash; Target string
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">char</span>:String</code> &mdash; Character or sub-string
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; Everything after the last occurrence of <code>char</code>
+		 </td></tr></table></div><a name="beforeFirst()"></a><a name="beforeFirst(String,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">beforeFirst</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function beforeFirst(targetString:String, char:String):String</code><p></p><p></p><p>
+		 Returns everything before the first occurrence of the provided character in the string
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">targetString</span>:String</code> &mdash; Target string
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">char</span>:String</code> &mdash; Character or sub-string
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; Everything before the first occurrence of <code>char</code>
+		 </td></tr></table></div><a name="beforeLast()"></a><a name="beforeLast(String,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">beforeLast</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function beforeLast(targetString:String, char:String):String</code><p></p><p></p><p>
+		 Returns everything before the last occurrence of the provided character in the string
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">targetString</span>:String</code> &mdash; Target string
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">char</span>:String</code> &mdash; Character or sub-string
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; Everything before the last occurrence of <code>char</code>
+		 </td></tr></table></div><a name="between()"></a><a name="between(String,String,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">between</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function between(targetString:String, startString:String, endString:String):String</code><p></p><p></p><p>
+		 Returns everything after the first occurance of <code>startString</code> and before
+		 the first occurrence of <code>endString</code> in <code>targetString</code>
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">targetString</span>:String</code> &mdash; Target string
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">startString</span>:String</code> &mdash; Character or sub-string to use as the start index
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">endString</span>:String</code> &mdash; Character or sub-string to use as the end index
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; Everything after the first occurance of <code>startString</code> and before
+		 the first occurrence of <code>endString</code> in <code>targetString</code>
+		 </td></tr></table></div><a name="capitalize()"></a><a name="capitalize(String,Boolean)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">capitalize</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function capitalize(targetString:String, allWords:Boolean = false):String</code><p></p><p></p><p>
+		 Capitallizes the first word in a string or all words
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">targetString</span>:String</code> &mdash; Target string
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">allWords</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; (optional) Boolean value indicating if we should
+		 capitalize all words or only the first
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; String with capitalized word(s)
+		 </td></tr></table></div><a name="countOf()"></a><a name="countOf(String,String,Boolean)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">countOf</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function countOf(targetString:String, char:String, caseSensitive:Boolean = true):uint</code><p></p><p></p><p>
+		 Determines the number of times a charactor or sub-string appears within the string
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">targetString</span>:String</code> &mdash; Target string
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">char</span>:String</code> &mdash; The character or sub-string to count
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">caseSensitive</span>:Boolean</code> (default = <code>true</code>)<code></code> &mdash; (optional, default is true) A boolean flag to indicate if the
+		 search is case sensitive
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>uint</code> &mdash; Number of times a charactor or sub-string appears within the string
+		 </td></tr></table></div><a name="duplicateString()"></a><a name="duplicateString(String,uint)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">duplicateString</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function duplicateString(source:String, count:uint = 1):String</code><p></p><p></p><p>
+		 Duplicates 'source' string 'count' times
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">source</span>:String</code> &mdash; <code>String</code> to duplicate
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">count</span>:uint</code> (default = <code>1</code>)<code></code> &mdash;  Duplicates count
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; Duplicated string
+		 </td></tr></table></div><a name="escapeHTML()"></a><a name="escapeHTML(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">escapeHTML</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function escapeHTML(str:String):String</code><p></p><p></p><p>
+		 Encodes characters within a string for use in an HTML Text Field.
+		 The characters escaped include: &lt;>'&"
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">str</span>:String</code> &mdash; The <code>String</code> containing the HTML data
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; An HTML encoded version of the original string
+		 </td></tr></table></div><a name="formatTime()"></a><a name="formatTime(Number)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">formatTime</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function formatTime(timeInSeconds:Number):String</code><p></p><p></p><p>
+		 Returns time in hh:mm:ss format from seconds
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">timeInSeconds</span>:Number</code> &mdash; <code>Time</code> in seconds to convert
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; Formatted time string
+		 </td></tr></table></div><a name="getAntiCache()"></a><a name="getAntiCache(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getAntiCache</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function getAntiCache(prefix:String = ?ac=):String</code><p></p><p></p><p>
+		 Generates anti-cache string
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">prefix</span>:String</code> (default = <code>?ac=</code>)<code></code> &mdash; Generated string prefix
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; Generated anticache string
+		 </td></tr></table></div><a name="getFileDir()"></a><a name="getFileDir(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getFileDir</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function getFileDir(filepath:String):String</code><p></p><p></p><p>
+		 Returns given filename's directory path
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">filepath</span>:String</code> &mdash; Full path to the file
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; Directory path of the given filepath
+		 </td></tr></table></div><a name="getFileExtension()"></a><a name="getFileExtension(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getFileExtension</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function getFileExtension(filename:String):String</code><p></p><p></p><p>
+		 Returns given filename's extension (chars after last period)
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">filename</span>:String</code> &mdash; Source filename
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; Extension (chars after last period) of the filename
+		 </td></tr></table></div><a name="getFileName()"></a><a name="getFileName(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getFileName</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function getFileName(filename:String):String</code><p></p><p></p><p>
+		 Returns given filename's clean name, without extension (chars before last period)
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">filename</span>:String</code> &mdash; Source filename
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; clean filename without extension
+		 </td></tr></table></div><a name="getLettersFromString()"></a><a name="getLettersFromString(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getLettersFromString</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function getLettersFromString(source:String):String</code><p></p><p></p><p>
+		 Returns all the letter characters from a <code>String</code>
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">source</span>:String</code> &mdash; <code>String</code> to return letters from
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; <code>String</code> containing only letters
+		 </td></tr></table></div><a name="getNumbersFromString()"></a><a name="getNumbersFromString(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getNumbersFromString</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function getNumbersFromString(source:String):String</code><p></p><p></p><p>
+		 Returns all the numeric characters from a <code>String</code>
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">source</span>:String</code> &mdash; <code>String</code> to return numbers from
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; <code>String</code> containing only numbers
+		 </td></tr></table></div><a name="includeTrailingPathDelimiter()"></a><a name="includeTrailingPathDelimiter(String,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">includeTrailingPathDelimiter</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function includeTrailingPathDelimiter(path:String, separator:String = \):String</code><p></p><p></p><p>
+		 Used to include trailing delimiter into the given path
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">path</span>:String</code> &mdash; Path to the file or directory
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">separator</span>:String</code> (default = <code>\</code>)<code></code> &mdash; Separator to use as a path delimiter
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; Path with trailing delimiter (e.g. with "\" on Win and "/" on Mac)
+		 </td></tr></table></div><a name="pad()"></a><a name="pad(String,uint,String,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">pad</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function pad(elem:String, finalLength:uint = 2, padChar:String = 0, dir:String = l):String</code><p></p><p></p><p>
+		 This function will pad the left or right side of any <code>String</code> passed in elem
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">elem</span>:String</code> &mdash;          Source string to pad
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">finalLength</span>:uint</code> (default = <code>2</code>)<code></code> &mdash;   Maximum pad length
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">padChar</span>:String</code> (default = <code>0</code>)<code></code> &mdash;       Character to use for padding
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">dir</span>:String</code> (default = <code>l</code>)<code></code> &mdash;           Pad direction ("l" - left, "r" - right)
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; Resulting string with padding
+		 </td></tr></table></div><a name="remove()"></a><a name="remove(String,String,Boolean)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">remove</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function remove(targetString:String, toRemove:String, caseSensitive:Boolean = true):String</code><p></p><p></p><p>
+		 Removes all instances of the remove string in the input string
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">targetString</span>:String</code> &mdash; The string that will be checked for instances of remove
+		 string
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">toRemove</span>:String</code> &mdash; The string that will be removed from the input string
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">caseSensitive</span>:Boolean</code> (default = <code>true</code>)<code></code> &mdash; An optional boolean indicating if the replace is case sensitive. Default is true
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; String without <code>toRemove</code> instances
+		 </td></tr></table></div><a name="removeExtraWhitespace()"></a><a name="removeExtraWhitespace(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">removeExtraWhitespace</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function removeExtraWhitespace(source:String):String</code><p></p><p></p><p>
+		 Removes extraneous whitespace (extra spaces, tabs, line breaks, etc) from the specified string
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">source</span>:String</code> &mdash; The String whose extraneous whitespace will be removed
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; <code>String</code> with extraneous whitespace removed
+		 </td></tr></table></div><a name="reverse()"></a><a name="reverse(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">reverse</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function reverse(targetString:String):String</code><p></p><p></p><p>
+		 Returns the specified string in reverse character order
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">targetString</span>:String</code> &mdash; The String that will be reversed
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; Reversed <code>targetString</code>
+		 </td></tr></table></div><a name="reverseWords()"></a><a name="reverseWords(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">reverseWords</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function reverseWords(targetString:String):String</code><p></p><p></p><p>
+		 Returns the specified string in reverse word order
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">targetString</span>:String</code> &mdash; The String that will be reversed
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; String with reversed word order
+		 </td></tr></table></div><a name="stripTags()"></a><a name="stripTags(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">stripTags</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function stripTags(targetString:String):String</code><p></p><p></p><p>
+		 Removes all &lt; and > based tags from a string
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">targetString</span>:String</code> &mdash; The source string
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; String with removed tags
+		 </td></tr></table></div><a name="trim()"></a><a name="trim(String,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">trim</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function trim(source:String, removeChars:String):String</code><p></p><p></p><p>
+		 Strips whitespace (or other characters) from the beginning and end of a given string
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">source</span>:String</code> &mdash; String to remove characters from
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">removeChars</span>:String</code> (default = <code>NaN</code>)<code></code> &mdash; Characters to strip (case sensitive). Defaults to whitespace characters
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; String with characters removed
+		 </td></tr></table></div><a name="trimLeft()"></a><a name="trimLeft(String,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">trimLeft</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function trimLeft(source:String, removeChars:String):String</code><p></p><p></p><p>
+		 Strips whitespace (or other characters) from the beginning of a <code>String</code>
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">source</span>:String</code> &mdash; <code>String</code> to remove characters from
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">removeChars</span>:String</code> (default = <code>NaN</code>)<code></code> &mdash; Characters to strip (case sensitive). Defaults to whitespace characters
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; <code>String</code> with characters removed
+		 </td></tr></table></div><a name="trimRight()"></a><a name="trimRight(String,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">trimRight</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function trimRight(source:String, removeChars:String):String</code><p></p><p></p><p>
+		 Strips whitespace (or other characters) from the end of a <code>String</code>
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">source</span>:String</code> &mdash; <code>String</code> to remove characters from
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">removeChars</span>:String</code> (default = <code>NaN</code>)<code></code> &mdash; Characters to strip (case sensitive). Defaults to whitespace characters
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; String with characters removed
+		 </td></tr></table></div><a name="truncate()"></a><a name="truncate(String,uint,uint,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">truncate</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function truncate(source:String, leading:uint = 10, trailing:uint = 0, separator:String = ...):String</code><p></p><p></p><p>
+		 Returns a shortened <code>String</code>
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">source</span>:String</code> &mdash;    <code>String</code> to shorten
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">leading</span>:uint</code> (default = <code>10</code>)<code></code> &mdash;  The number of characters to keep in the end of the <code>String</code>
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">trailing</span>:uint</code> (default = <code>0</code>)<code></code> &mdash;   The number of characters to keep in the begining of the <code>String</code>
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">separator</span>:String</code> (default = <code>...</code>)<code></code> &mdash; Characters to seperate the begining and the end of the <code>String</code>
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; The shortened String
+		 
+		 </td></tr></table><br/><span class="label"> Example </span><br/><div class="detailBody"><div class="listing" version="3.0"><pre>
+         trace(StringUtil.truncate('Mississippi', 2, 3, '...')); // traces "Mis...pi" </pre></div>
+		 </div></div><a name="unescapeHTML()"></a><a name="unescapeHTML(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">unescapeHTML</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function unescapeHTML(str:String):String</code><p></p><p></p><p>
+		 Converts HTML &,",etc into the characters
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">str</span>:String</code> &mdash; HTML string to process
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; <code>String</code> with unescaped HTML
+		 </td></tr></table></div><br/><br/><hr><br/><p></p><center class="copyright"><footer>(C) <strong><a href="http://blog.codestage.ru">focus</a></strong>, 2011</footer><br/>Wed Jul 4 2012, 01:57 AM +04:00  </center></div></body></html><!--(C) focus, 2011<br/>Wed Jul 4 2012, 01:57 AM +04:00  -->

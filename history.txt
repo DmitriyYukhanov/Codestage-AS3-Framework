@@ -1,0 +1,63 @@
+History:
+--------------------------------------------------------------------
+1.0.1.1 | 04.07.12
+ru.codestage.utils.display.GraphUtil
+	- drawCheckFill() added
+	- rasterize() added
+	- rasterizeContainerContent() added
+	- getFullBoundsWithFilters() added
+	
+ru.codestage.ui.preloaders.circle.LoadIndicator:
+	- reduced memory footprint
+	- improved rendering performance
+	- added delayed mode
+	- renamed to ru.codestage.ui.preloaders.CirclePreloader
+	
+ru.codestage.utils.NumUtil
+	- added powerOf() method
+	
+ru.codestage.utils.StrUtil
+	- added getFileName() method
+--------------------------------------------------------------------
+1.0.1.0 | 08.12.11
+Common:
+	- ClassUtil added
+	- new method added to the GraphUtil: getFullBounds
+	
+TripleVar:
+	- constructor changed
+	- added copyTo()
+	- added getCommonDifference()
+	- added clone()
+	
+NumUtil:
+	- generateChanceBoolean behaviour changed to the opposite
+	- fastRound() added
+	
+GreensockScroller:
+	- added timeline slider feature, some minor bugfixes and improvements
+	- fixed slider shifting
+	- hiding sliderTimeline and sliderTimelineArea on a scholl hide
+	
+--------------------------------------------------------------------
+1.0.0.3 | 04.10.11
+Common:
+	- VectorUtil class added
+	
+--------------------------------------------------------------------
+1.0.0.2 | 02.10.11
+Common:
+	- added MIT License
+
+GreensockScroller:
+	- added missing throw for error generation (if something is wrong with initial settings)
+	- added slider height\width substractiong from the sliderArea [thx to toxic2k]
+
+--------------------------------------------------------------------
+1.0.0.1 | 27.09.11
+
+GreensockScroller:
+	- fixed sliderArea hiding [thx to toxic2k]
+--------------------------------------------------------------------
+1.0.0.0 | 26.07.11
+- initial build

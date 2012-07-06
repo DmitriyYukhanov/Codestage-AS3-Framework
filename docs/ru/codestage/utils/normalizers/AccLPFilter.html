@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><!-- saved from url=(0014)about:internet --><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="../../../../style.css" type="text/css" media="screen"><link rel="stylesheet" href="../../../../print.css" type="text/css" media="print"><link rel="stylesheet" href="../../../../override.css" type="text/css"><meta name="keywords" content="AccLPFilter,ru.codestage.utils.normalizers.AccLPFilter,adaptive,addValue,getValue,reset,setParams"><title>ru.codestage.utils.normalizers.AccLPFilter</title><script src="../../../../AC_OETags.js" type="text/javascript"></script></head><body><script language="javascript" type="text/javascript" src="../../../../asdoc.js"></script><script language="javascript" type="text/javascript" src="../../../../help.js"></script><script language="javascript" type="text/javascript" src="../../../../cookies.js"></script><script language="javascript" type="text/javascript"><!--
+				asdocTitle = 'AccLPFilter - CodeStage AS3 Framework';
+				var baseRef = '../../../../';
+				window.onload = configPage;
+			--></script>
+<script type="text/javascript">
+			scrollToNameAnchor();
+		</script><table class="titleTable" cellpadding="0" cellspacing="0" id="titleTable" style="display:none"><tr><td class="titleTableTitle" align="left">CodeStage ActionScript 3 Framework</td><td class="titleTableTopNav" align="right"><a href="../../../../package-summary.html" onclick="loadClassListFrame('../../../../all-classes.html')">All Packages</a>&nbsp;|&nbsp;<a href="../../../../class-summary.html" onclick="loadClassListFrame('../../../../all-classes.html')">All Classes</a>&nbsp;|&nbsp;<a href="../../../../all-index-A.html" onclick="loadClassListFrame('../../../../index-list.html')">Index</a>&nbsp;|&nbsp;<a id="framesLink1" href="../../../../index.html?ru/codestage/utils/normalizers/AccLPFilter.html&amp;ru/codestage/utils/normalizers/class-list.html">Frames</a><a id="noFramesLink1" style="display:none" href="" onclick="parent.location=document.location"> No Frames </a></td><td class="titleTableLogo" align="right" rowspan="3"><img src="../../../../images/logo.jpg" class="logoImage" alt=" Adobe Logo " title=" Adobe Logo "></td></tr><tr class="titleTableRow2"><td class="titleTableSubTitle" id="subTitle" align="left">AccLPFilter</td><td class="titleTableSubNav" id="subNav" align="right"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a>&nbsp;| <a href="#includeExamplesSummary">Examples</a></td></tr><tr class="titleTableRow3"><td colspan="3">&nbsp;</td></tr></table><script language="javascript" type="text/javascript" xml:space="preserve">
+				<!--
+				
+					if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("AccLPFilter"); titleBar_setSubNav(false,true,false,false,false,false,false,false,true,true,false	,false,false,false,false,false);}	
+				-->
+			</script><div xmlns:fn="http://www.w3.org/2005/xpath-functions" class="MainContent"><table class="classHeaderTable" cellpadding="0" cellspacing="0"><tr><td class="classHeaderTableLabel">Package</td><td><a href="package-detail.html" onclick="javascript:loadClassListFrame('class-list.html')">ru.codestage.utils.normalizers</a></td></tr><tr><td class="classHeaderTableLabel">Class</td><td class="classSignature">public final   class  AccLPFilter</td></tr><tr><td class="classHeaderTableLabel">Inheritance</td><td class="inheritanceList">AccLPFilter  <img src="../../../../images/inherit-arrow.gif" title="Inheritance" alt="Inheritance" class="inheritArrow"> Object</td></tr></table><p></p><p></p><p></p>
+	 Accelometer Low Pass filter. Use it to smooth the accelometer raw vaues.
+	 <p></p><p><a href="#includeExamplesSummary">View the examples</a></p><br/><hr></div><a name="propertySummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Properties</div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableProperty"><tr><th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a href="#adaptive" class="signatureLink">adaptive</a> : Boolean = true<div class="summaryTableDescription">
+		 Adaptive filtering makes it more smooth and calculates more relevant filter values.</div></td><td class="summaryTableOwnerCol">AccLPFilter</td></tr></table></div><a name="methodSummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Methods </div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableMethod"><tr><th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#AccLPFilter()" class="signatureLink">AccLPFilter</a>()</div><div class="summaryTableDescription"></div></td><td class="summaryTableOwnerCol">AccLPFilter</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#addValue()" class="signatureLink">addValue</a>(x:Number, y:Number, z:Number):void</div><div class="summaryTableDescription">
+		 Add raw accelometer values to filter
+		 </div></td><td class="summaryTableOwnerCol">AccLPFilter</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getValue()" class="signatureLink">getValue</a>():<a href="../../../../ru/codestage/types/TripleVar.html">TripleVar</a></div><div class="summaryTableDescription">
+		 Get filtered values
+		 </div></td><td class="summaryTableOwnerCol">AccLPFilter</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#reset()" class="signatureLink">reset</a>():void</div><div class="summaryTableDescription">
+		 Reset filter values
+		 </div></td><td class="summaryTableOwnerCol">AccLPFilter</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#setParams()" class="signatureLink">setParams</a>(sample_rate:Number, cutoff_frequency:Number):void</div><div class="summaryTableDescription">
+		 Set the initial filter prarmeters.</div></td><td class="summaryTableOwnerCol">AccLPFilter</td></tr></table></div><script language="javascript" type="text/javascript"><!--
+										showHideInherited();
+										--></script><div class="MainContent"><div class="detailSectionHeader">Property Detail</div><a name="propertyDetail"></a><a name="adaptive"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">adaptive</td><td class="detailHeaderType">property</td></tr></table><div class="detailBody"><code>public var adaptive:Boolean = true</code><p></p><p></p><p>
+		 Adaptive filtering makes it more smooth and calculates more relevant filter values. Non adaptive filtering based on the constant
+		 </p></div><a name="constructorDetail"></a><div class="detailSectionHeader">Constructor Detail</div><a name="AccLPFilter()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">AccLPFilter</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">Constructor</td></tr></table><div class="detailBody"><code>public function AccLPFilter()</code><p></p><br/><br/></div><a name="methodDetail"></a><div class="detailSectionHeader">Method Detail</div><a name="addValue()"></a><a name="addValue(Number,Number,Number)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">addValue</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td></tr></table><div class="detailBody"><code> public function addValue(x:Number, y:Number, z:Number):void</code><p></p><p></p><p>
+		 Add raw accelometer values to filter
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">x</span>:Number</code></td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">y</span>:Number</code></td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">z</span>:Number</code></td></tr></table></p></div><a name="getValue()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getValue</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function getValue():<a href="../../../../ru/codestage/types/TripleVar.html">TripleVar</a></code><p></p><p></p><p>
+		 Get filtered values
+		 </p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code><a href="../../../../ru/codestage/types/TripleVar.html">TripleVar</a></code> &mdash; filtered values in the x,y,z properties of the <code>TripleVar</code> instance
+		 </td></tr></table></div><a name="reset()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">reset</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function reset():void</code><p></p><p></p><p>
+		 Reset filter values
+		 </p></div><a name="setParams()"></a><a name="setParams(Number,Number)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">setParams</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function setParams(sample_rate:Number, cutoff_frequency:Number):void</code><p></p><p></p><p>
+		 Set the initial filter prarmeters. Could be called at any time to change the initial parameters
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">sample_rate</span>:Number</code></td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">cutoff_frequency</span>:Number</code></td></tr></table></p></div><a name="includeExamplesSummary"></a><div class="detailSectionHeader">Examples</div><div class="detailBody">
+	 <div class="listing" version="3.0"><pre>
+     package
+     {
+             import flash.display.MovieClip;
+             import flash.events.AccelerometerEvent;
+             import flash.events.TimerEvent;
+             import flash.sensors.Accelerometer;
+             import flash.utils.Timer;
+             import ru.codestage.types.TripleVar;
+     
+             public class AccExample extends MovieClip
+             {
+                 private const TIMER_UPDATE_INTERVAL:Number = 35;
+                 private const ACCELOMETER_UPDATE_INTERVAL:uint = 50;
+                 private const ACCELEROMETER_CUT_OFF_FREQ:Number = 95;
+                 private const ACCELEROMETER_FREQ:Number = 100;
+         
+                 private var accFilter:AccLPFilter;
+                 private var updateTimer:Timer;
+                 private var accelometer:Accelerometer;
+         
+                 public function AccExample() 
+                 {
+                     super();
+                     _init();
+                 }
+         
+                 private function _init():void 
+                 {
+                     if (Accelerometer.isSupported)
+                     {
+                         accFilter = new AccLPFilter();
+                         accFilter.setParams(ACCELEROMETER_FREQ, ACCELEROMETER_CUT_OFF_FREQ);
+                         
+                         accelometer = new Accelerometer();
+                         accelometer.addEventListener(AccelerometerEvent.UPDATE, _onAccUpdate);
+                         accelometer.setRequestedUpdateInterval(ACCELOMETER_UPDATE_INTERVAL);
+                         
+                         updateTimer = new Timer(TIMER_UPDATE_INTERVAL);
+                         updateTimer.addEventListener(TimerEvent.TIMER, _onUpdateTimerTimer);
+                         updateTimer.start();
+                     }
+                 }
+     
+                 private function _onUpdateTimerTimer(e:TimerEvent):void
+                 {
+                     var acc:TripleVar = accFilter.getValue();
+                     trace(acc.x);
+                     trace(acc.y);
+                     trace(acc.z);
+                     acc = null;
+                 }
+                 
+                 private function _onAccUpdate(e:AccelerometerEvent):void 
+                 {
+                     accFilter.addValue(e.accelerationX, e.accelerationY, e.accelerationZ);
+                 }
+             }
+     }
+     </pre></div>
+	 </div><br/><br/><hr><br/><p></p><center class="copyright"><footer>(C) <strong><a href="http://blog.codestage.ru">focus</a></strong>, 2011</footer><br/>Wed Jul 4 2012, 01:57 AM +04:00  </center></div></body></html><!--(C) focus, 2011<br/>Wed Jul 4 2012, 01:57 AM +04:00  -->

@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><!-- saved from url=(0014)about:internet --><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="../../../../style.css" type="text/css" media="screen"><link rel="stylesheet" href="../../../../print.css" type="text/css" media="print"><link rel="stylesheet" href="../../../../override.css" type="text/css"><meta name="keywords" content="StrValidationUtils,ru.codestage.utils.string.StrValidationUtils,afterFirst,afterLast,beforeFirst,beforeLast,between,capitalize,countOf,duplicateString,escapeHTML,formatTime,getAntiCache,getFileDir,getFileExtension,getFileName,getLettersFromString,getNumbersFromString,hasInvalidChars,hasValidChars,includeTrailingPathDelimiter,isAlphaNumeric,isDigit,isFileURL,isHttpURL,isHttpsURL,isIP4,isIntegerInRange,isLetter,isLetterOrDigit,isNotEmpty,isNumeric,isValidEmail,isValidPhone,pad,remove,removeExtraWhitespace,reverse,reverseWords,stripTags,trim,trimLeft,trimRight,truncate,unescapeHTML"><title>ru.codestage.utils.string.StrValidationUtils</title></head><body><script language="javascript" type="text/javascript" src="../../../../asdoc.js"></script><script language="javascript" type="text/javascript" src="../../../../help.js"></script><script language="javascript" type="text/javascript" src="../../../../cookies.js"></script><script language="javascript" type="text/javascript"><!--
+				asdocTitle = 'StrValidationUtils - CodeStage AS3 Framework';
+				var baseRef = '../../../../';
+				window.onload = configPage;
+			--></script>
+<script type="text/javascript">
+			scrollToNameAnchor();
+		</script><table class="titleTable" cellpadding="0" cellspacing="0" id="titleTable" style="display:none"><tr><td class="titleTableTitle" align="left">CodeStage ActionScript 3 Framework</td><td class="titleTableTopNav" align="right"><a href="../../../../package-summary.html" onclick="loadClassListFrame('../../../../all-classes.html')">All Packages</a>&nbsp;|&nbsp;<a href="../../../../class-summary.html" onclick="loadClassListFrame('../../../../all-classes.html')">All Classes</a>&nbsp;|&nbsp;<a href="../../../../all-index-A.html" onclick="loadClassListFrame('../../../../index-list.html')">Index</a>&nbsp;|&nbsp;<a id="framesLink1" href="../../../../index.html?ru/codestage/utils/string/StrValidationUtils.html&amp;ru/codestage/utils/string/class-list.html">Frames</a><a id="noFramesLink1" style="display:none" href="" onclick="parent.location=document.location"> No Frames </a></td><td class="titleTableLogo" align="right" rowspan="3"><img src="../../../../images/logo.jpg" class="logoImage" alt=" Adobe Logo " title=" Adobe Logo "></td></tr><tr class="titleTableRow2"><td class="titleTableSubTitle" id="subTitle" align="left">StrValidationUtils</td><td class="titleTableSubNav" id="subNav" align="right"><a href="#methodSummary">Methods</a></td></tr><tr class="titleTableRow3"><td colspan="3">&nbsp;</td></tr></table><script language="javascript" type="text/javascript" xml:space="preserve">
+				<!--
+				
+					if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("StrValidationUtils"); titleBar_setSubNav(false,false,false,false,false,false,false,false,true,false,false	,false,false,false,false,false);}	
+				-->
+			</script><div xmlns:fn="http://www.w3.org/2005/xpath-functions" class="MainContent"><table class="classHeaderTable" cellpadding="0" cellspacing="0"><tr><td class="classHeaderTableLabel">Package</td><td><a href="package-detail.html" onclick="javascript:loadClassListFrame('class-list.html')">ru.codestage.utils.string</a></td></tr><tr><td class="classHeaderTableLabel">Class</td><td class="classSignature">public  class  StrValidationUtils</td></tr><tr><td class="classHeaderTableLabel">Inheritance</td><td class="inheritanceList">StrValidationUtils  <img src="../../../../images/inherit-arrow.gif" title="Inheritance" alt="Inheritance" class="inheritArrow"> Object</td></tr></table><p></p><p></p><p></p>
+	 Different data validation functions
+	 
+	 Original (c) by Adobe (as3DataValidation classes), 2007
+	 
+	 <p></p><br/><hr></div><a name="methodSummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Methods </div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableMethod"><tr><th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#hasInvalidChars()" class="signatureLink">hasInvalidChars</a>(str:String, chars:String):Boolean</div><div class="summaryTableDescription">[static] 
+		 Compare a string against a list of characters to determine if the string does not
+		 contain those characters.</div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#hasValidChars()" class="signatureLink">hasValidChars</a>(str:String, chars:String):Boolean</div><div class="summaryTableDescription">[static] 
+		 Compare a string against a list of characters to determine if the string contains
+		 only those characters.</div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#isAlphaNumeric()" class="signatureLink">isAlphaNumeric</a>(str:String):Boolean</div><div class="summaryTableDescription">[static] 
+		 Determines whether the string contains only alphabetic and numeric characters
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#isDigit()" class="signatureLink">isDigit</a>(n:String):Boolean</div><div class="summaryTableDescription">[static] 
+		 Casts a string as a number.</div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#isFileURL()" class="signatureLink">isFileURL</a>(fileURL:String):Boolean</div><div class="summaryTableDescription">[static] 
+		 Determine whether a string is a Windows file URL
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#isHttpsURL()" class="signatureLink">isHttpsURL</a>(str:String, domain:String):Boolean</div><div class="summaryTableDescription">[static] 
+		 Performs basic checks to determine if a string is a valid HTTPS URL
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#isHttpURL()" class="signatureLink">isHttpURL</a>(str:String, domain:String, isSSL:Boolean = false):Boolean</div><div class="summaryTableDescription">[static] 
+		 Performs basic checks to determine if a string is a valid HTTP or HTTPS URL
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#isIntegerInRange()" class="signatureLink">isIntegerInRange</a>(nString:String, min:int, max:int):Boolean</div><div class="summaryTableDescription">[static] 
+		 Determines whether the integer with a specified range
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#isIP4()" class="signatureLink">isIP4</a>(ip:String):Boolean</div><div class="summaryTableDescription">[static] 
+		 Determine whether a string is a valid IP address
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#isLetter()" class="signatureLink">isLetter</a>(n:String):Boolean</div><div class="summaryTableDescription">[static] 
+		 Determines if n is within A-Z or a-z
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#isLetterOrDigit()" class="signatureLink">isLetterOrDigit</a>(n:String):Boolean</div><div class="summaryTableDescription">[static] 
+		 Does the character contain an alphabetic character or number
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#isNotEmpty()" class="signatureLink">isNotEmpty</a>(str:String, keepWhite:Boolean = false):Boolean</div><div class="summaryTableDescription">[static] 
+		 Determines whether the string contains data
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#isNumeric()" class="signatureLink">isNumeric</a>(source:String):Boolean</div><div class="summaryTableDescription">[static] 
+		 Determines whether the specified string is numeric
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#isValidEmail()" class="signatureLink">isValidEmail</a>(mail:String):Boolean</div><div class="summaryTableDescription">[static] 
+		 Determines whether a string is an email address.</div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#isValidPhone()" class="signatureLink">isValidPhone</a>(phoneNumber:String):Boolean</div><div class="summaryTableDescription">[static] 
+		 Determines whether a string is an phone number
+		 
+		 </div></td><td class="summaryTableOwnerCol">StrValidationUtils</td></tr></table></div><script language="javascript" type="text/javascript"><!--
+										showHideInherited();
+										--></script><div class="MainContent"><a name="methodDetail"></a><div class="detailSectionHeader">Method Detail</div><a name="hasInvalidChars()"></a><a name="hasInvalidChars(String,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">hasInvalidChars</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td></tr></table><div class="detailBody"><code> public static function hasInvalidChars(str:String, chars:String):Boolean</code><p></p><p></p><p>
+		 Compare a string against a list of characters to determine if the string does not
+		 contain those characters.  This comparison is not case-senstive and it does not
+		 validate that the characters are in a particular order
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">str</span>:String</code> &mdash; The string that needs to be validated
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">chars</span>:String</code> &mdash; The list of valid characters for that string
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; A Boolean true value if the data is valid
+		 </td></tr></table></div><a name="hasValidChars()"></a><a name="hasValidChars(String,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">hasValidChars</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function hasValidChars(str:String, chars:String):Boolean</code><p></p><p></p><p>
+		 Compare a string against a list of characters to determine if the string contains
+		 only those characters.  This comparison is not case-sensitive and does not validate
+		 the order of the characters
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">str</span>:String</code> &mdash; The string that needs to be validated
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">chars</span>:String</code> &mdash; The list of valid characters for that string
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; A Boolean true value if the data is valid
+		 </td></tr></table></div><a name="isAlphaNumeric()"></a><a name="isAlphaNumeric(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">isAlphaNumeric</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function isAlphaNumeric(str:String):Boolean</code><p></p><p></p><p>
+		 Determines whether the string contains only alphabetic and numeric characters
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">str</span>:String</code> &mdash; The string to validate
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; A Boolean true value if the data is valid
+		 </td></tr></table></div><a name="isDigit()"></a><a name="isDigit(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">isDigit</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function isDigit(n:String):Boolean</code><p></p><p></p><p>
+		 Casts a string as a number.  If it fails, returns false
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">n</span>:String</code> &mdash; The String of the number to validate
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; A Boolean true value if the data is valid
+		 </td></tr></table></div><a name="isFileURL()"></a><a name="isFileURL(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">isFileURL</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function isFileURL(fileURL:String):Boolean</code><p></p><p></p><p>
+		 Determine whether a string is a Windows file URL
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">fileURL</span>:String</code> &mdash; The string containing the file url
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; Will return true if the data is valid
+		 </td></tr></table></div><a name="isHttpsURL()"></a><a name="isHttpsURL(String,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">isHttpsURL</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function isHttpsURL(str:String, domain:String):Boolean</code><p></p><p></p><p>
+		 Performs basic checks to determine if a string is a valid HTTPS URL
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">str</span>:String</code> &mdash; The string containing the HTTPS URL
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">domain</span>:String</code> &mdash; The expected domain for the URL (optional)
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; Will return true if the data is valid
+		 </td></tr></table></div><a name="isHttpURL()"></a><a name="isHttpURL(String,String,Boolean)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">isHttpURL</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function isHttpURL(str:String, domain:String, isSSL:Boolean = false):Boolean</code><p></p><p></p><p>
+		 Performs basic checks to determine if a string is a valid HTTP or HTTPS URL
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">str</span>:String</code> &mdash; The string containing the URL
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">domain</span>:String</code> &mdash; The expected domain for the URL (optional)
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">isSSL</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; A boolean value that is set to true for HTTPS URLs (optional)
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; Will return true if the data is valid
+		 </td></tr></table></div><a name="isIntegerInRange()"></a><a name="isIntegerInRange(String,int,int)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">isIntegerInRange</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function isIntegerInRange(nString:String, min:int, max:int):Boolean</code><p></p><p></p><p>
+		 Determines whether the integer with a specified range
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">nString</span>:String</code> &mdash; The String representing the number to validate
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">min</span>:int</code> &mdash; The minimum value as a Number (>= comparison)
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">max</span>:int</code> &mdash; The maxium value  as a Number (&lt;= comparison)
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; A Boolean true value if the data is within the range
+		 </td></tr></table></div><a name="isIP4()"></a><a name="isIP4(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">isIP4</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function isIP4(ip:String):Boolean</code><p></p><p></p><p>
+		 Determine whether a string is a valid IP address
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">ip</span>:String</code> &mdash; The string containing the IP address
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; Will return true if the data is valid
+		 </td></tr></table></div><a name="isLetter()"></a><a name="isLetter(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">isLetter</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function isLetter(n:String):Boolean</code><p></p><p></p><p>
+		 Determines if n is within A-Z or a-z
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">n</span>:String</code> &mdash; The character to validate
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; A Boolean true value if the data is valid
+		 </td></tr></table></div><a name="isLetterOrDigit()"></a><a name="isLetterOrDigit(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">isLetterOrDigit</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function isLetterOrDigit(n:String):Boolean</code><p></p><p></p><p>
+		 Does the character contain an alphabetic character or number
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">n</span>:String</code> &mdash; The character to validate
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; A Boolean true value if the data is valid
+		 </td></tr></table></div><a name="isNotEmpty()"></a><a name="isNotEmpty(String,Boolean)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">isNotEmpty</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function isNotEmpty(str:String, keepWhite:Boolean = false):Boolean</code><p></p><p></p><p>
+		 Determines whether the string contains data
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">str</span>:String</code> &mdash; The character to validate
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">keepWhite</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; A boolean when set to false will ignore white space (space, newline, tab, return)
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; A Boolean true value if the string is not empty
+		 </td></tr></table></div><a name="isNumeric()"></a><a name="isNumeric(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">isNumeric</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function isNumeric(source:String):Boolean</code><p></p><p></p><p>
+		 Determines whether the specified string is numeric
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">source</span>:String</code> &mdash; <code>String</code> to check
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; True if given <code>String</code> is a number; otherwise false
+		 </td></tr></table></div><a name="isValidEmail()"></a><a name="isValidEmail(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">isValidEmail</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function isValidEmail(mail:String):Boolean</code><p></p><p></p><p>
+		 Determines whether a string is an email address.
+		 Checks for common email address formats but it does not support the full RFC definition
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">mail</span>:String</code> &mdash; The string containing the email address
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; Will return true if the data is valid
+		 </td></tr></table></div><a name="isValidPhone()"></a><a name="isValidPhone(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">isValidPhone</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function isValidPhone(phoneNumber:String):Boolean</code><p></p><p></p><p>
+		 Determines whether a string is an phone number
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">phoneNumber</span>:String</code> &mdash; The string containing the phone number
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; Will return true if the data is valid
+		 </td></tr></table></div><br/><br/><hr><br/><p></p><center class="copyright"><footer>(C) <strong><a href="http://blog.codestage.ru">focus</a></strong>, 2011</footer><br/>Wed Jul 4 2012, 01:57 AM +04:00  </center></div></body></html><!--(C) focus, 2011<br/>Wed Jul 4 2012, 01:57 AM +04:00  -->
