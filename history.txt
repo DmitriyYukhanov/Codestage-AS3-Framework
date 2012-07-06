@@ -1,6 +1,6 @@
 History:
 --------------------------------------------------------------------
-1.0.1.1 | 04.07.12
+1.0.1.1 | 06.07.12
 ru.codestage.utils.display.GraphUtil
 	- drawCheckFill() added
 	- rasterize() added
@@ -18,6 +18,8 @@ ru.codestage.utils.NumUtil
 	
 ru.codestage.utils.StrUtil
 	- added getFileName() method
+
+- moved to GitHub
 --------------------------------------------------------------------
 1.0.1.0 | 08.12.11
 Common:
