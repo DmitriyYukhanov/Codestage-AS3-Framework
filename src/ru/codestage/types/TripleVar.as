@@ -25,7 +25,7 @@ package ru.codestage.types
 	import ru.codestage.utils.NumUtil;
 	/**
 	 * Simple type to store three variables of the Number type simultaneously.
-	 * Could be useful as Vector3D replacement.
+	 * Could be useful as lightweight Vector3D replacement.
 	 * @author focus | http://blog.codestage.ru
 	 */
 	public class TripleVar extends Object 
